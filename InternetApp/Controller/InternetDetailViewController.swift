@@ -9,7 +9,8 @@
 import UIKit
 import WebKit
 
-public class InternetDetailViewController: UIViewController {
+public class InternetDetailViewController: UIViewController
+{
 
     @IBOutlet weak var webViewer: WKWebView!
     @IBOutlet weak var screenTitle: UILabel!
@@ -49,7 +50,8 @@ public class InternetDetailViewController: UIViewController {
         }
     }
     
-    override public func viewDidLoad() -> Void{
+    override public func viewDidLoad() -> Void
+    {
         super.viewDidLoad()
 
         updateView()
@@ -71,15 +73,4 @@ public class InternetDetailViewController: UIViewController {
             webViewer.load(requestedPDF as URLRequest)
         }
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

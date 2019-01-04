@@ -26,7 +26,7 @@ public class InternetMasterViewController: UITableViewController
         ]
         
         addresses = [
-            "https://docs.google.com/document/d/1JW4-H-KKw8y3uQ38F7UuPEZxCHPfQtPlsK8nJ09t_wA/edit",
+            "load a pdf here XD",
             "https://www.google.com",
             "https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles",
             "http://www.canyonsdistrict.org/",
